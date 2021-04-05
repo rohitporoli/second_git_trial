@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def first(request):
-    return HttpResponse('first page')
+    return HttpResponse('Hello World!')
 
 def hello(request):
-    return HttpResponse('Hello World')
+    return HttpResponse('It works, Yay! :)')
